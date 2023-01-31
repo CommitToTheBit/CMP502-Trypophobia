@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>be9b933c-5ba4-4b75-8a03-402244ddb78b</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>558da2db-1cd8-4033-9858-2a5e9328268c</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{40238b9b-2d65-45a3-9dff-1217399e25f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shader Textures">
+      <UniqueIdentifier>{7ac1a878-5bec-414d-8036-e0357d223468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shader Classes">
+      <UniqueIdentifier>{f529fe65-ede5-4321-b5c9-5a9385d2396f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Camera Classes">
+      <UniqueIdentifier>{506627cf-6af6-4ad4-be9d-f175a78b5dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Shader Classes">
+      <UniqueIdentifier>{fbc6830f-515f-4e11-b5b3-ad5f34f93d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Textures">
+      <UniqueIdentifier>{059afbad-ff6b-44a2-b399-23bc2482a42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Vertex Models">
+      <UniqueIdentifier>{51e21d27-ec15-4e68-82ff-d8ce7cfddc5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadData.h" />
+    <ClInclude Include="modelclass.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Rendering\Camera Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentCamera.h">
+      <Filter>Rendering\Camera Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxShader.h">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecimenShader.h">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RefractionShader.h">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GlassShader.h">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaShader.h">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayShader.h">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Rendering\Camera Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentCamera.cpp">
+      <Filter>Rendering\Camera Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxShader.cpp">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecimenShader.cpp">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RefractionShader.cpp">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassShader.cpp">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaShader.cpp">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayShader.cpp">
+      <Filter>Rendering\Shader Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SegoeUI_18.spritefont">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="sample_nm.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="brine_texture.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="EvilDrone_Diff.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="glass_texture.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Stylized_Stone_Floor_005_normal.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Specimen-Jar-_1-Normal.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+    <Image Include="Stylized_Stone_Floor_005_basecolor.dds">
+      <Filter>Assets\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="neutral_nm.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="neutral.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="light_ps.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="light_vs.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="tiling_irregular_quad.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="tiling_regular_quad.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="tiling_irregular_hex.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="pores.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="pores_nm.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="indexing_regular_quad.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="indexing_euclidean_voronoi.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="indexing_manhattan_voronoi.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox_vs.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox_ps.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox_pores.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="specimen_vs.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="specimen_ps.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="refraction_vs.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="refraction_ps.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="glass_vs.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="glass_ps.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="alpha_vs.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="alpha_ps.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="overlay_vs.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="overlay_ps.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="tiling_regular_hex.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="spherical_pores.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="spherical_pores_nm.hlsl">
+      <Filter>Assets\Shader Textures</Filter>
+    </FxCompile>
+    <FxCompile Include="indexing_french_voronoi.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="colour_ps.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+    <FxCompile Include="colour_vs.hlsl">
+      <Filter>Assets\Shader Classes</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+GRADE: A+
+
+OVERALL FEEDBACK:
+Good looking app, but a bit dark!  
+I was able to see everything through the video and running the app but no need to make things too mysterious.  
+But yeah I get it it's a horror thing!
+
+Each shader looks to have its own complexities and visual interactions with several different combinations of effects. 
+Really it's a shader showpiece which is great. Input and mouse controls feel good and solid. 
+Given the horror theme you should have added a spooky noise or something!
+
+Essentially the hole texture is procedural texturing which is actually what we will be looking at next semester so this is really above and beyond. 
+With a technical focused demonstration like this the expectation is for technical detail and explanation in the report and it is well written, extensive and complete. 
+The diagrams are also an excellent addition for clarity. 
+All techniques and underlying principles used are well understood.  
+Excellent work all round and you will have more chance for exciting procedural textures next semester!
